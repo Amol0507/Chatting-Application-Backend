@@ -120,5 +120,5 @@ public class ChatController {
     public ResponseEntity<Chat> addMessage(@RequestBody Message add , @PathVariable int chatId) throws ChatNotFoundException {
         return new ResponseEntity<Chat>(chatService.addMessage(add,chatId), HttpStatus.OK);
     }
-
 }
+
