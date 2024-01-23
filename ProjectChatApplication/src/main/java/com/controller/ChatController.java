@@ -121,4 +121,3 @@ public class ChatController {
         return new ResponseEntity<Chat>(chatService.addMessage(add,chatId), HttpStatus.OK);
     }
 }
-
